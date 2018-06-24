@@ -2,6 +2,34 @@ body {
     overflow: hidden;
 }
 
+.settings {
+    position: fixed;
+    top: 3vh;
+    left: 3vh;
+    height: 30px;
+    width: 30px;
+}
+
+.settings__icon {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.settings__icon:hover {
+    transition-duration: 0.3;
+    transform: scale(1.05);
+}
+
+.settings__form {
+    visibility: hidden;
+    background-color: #CCCCFF;
+    width: 210px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
 .counter {
     height: 100vh;
     display: flex;
