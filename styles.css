@@ -33,10 +33,15 @@ body {
 .counter {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.counter__info {
+    font-size: 30px;
+}
+
 .counter__text {
-    
+    font-size: 50px;
 }
