@@ -30,6 +30,19 @@ body {
     padding: 10px;
 }
 
+.settings__form__field {
+    width: 210px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.settings__form__field__input {
+    margin-left: 5px;
+    width: 60px;
+    border-radius: 5px;
+    text-indent: 100%;
+}
+
 .counter {
     height: 100vh;
     display: flex;
