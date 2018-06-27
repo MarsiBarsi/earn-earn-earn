@@ -14,19 +14,23 @@
     <img id="settings-button"
          class="settings__icon"
          src="./svg/settings.svg">
-    <div id="settings-div"
-         class="settings__form">
-        <div class="settings__form__field">
-            <label>
-                Your hourly earnings: 
-            </label>
-            <input type="number"
-                   class="settings__form__field__input">
+    <form id="settings-form">
+        <div id="settings-div"
+             class="settings__form">
+            <div class="settings__form__field">
+                <label>
+                    Your hourly earnings: 
+                </label>
+                <input type="number"
+                       class="settings__form__field__input">
+            </div>
+            <button type="submit"
+                    id="save-button"
+                    class="settings__form__field__button">
+                Save
+            </button>
         </div>
-        <button id="save-button">
-            Save
-        </button>
-    </div>
+    </form>
 </div>
 
 <div class="counter">
