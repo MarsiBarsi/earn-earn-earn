@@ -1,5 +1,11 @@
 body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
+    background-color: rgba(33, 99, 255, 0.1)
 }
 
 .settings {
@@ -53,11 +59,14 @@ body {
 }
 
 .counter {
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    width: 350px;
+    background-color: white;
+    border: 2px solid #CCC;
+    border-radius: 5px;
+    padding: 35px;
 }
 
 .counter__info {
