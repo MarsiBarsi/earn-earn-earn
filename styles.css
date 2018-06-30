@@ -28,12 +28,13 @@ body {
 
 .settings__form {
     visibility: hidden;
-    background-color: #CCCCFF;
+    background-color: #FFF;
     width: 210px;
     display: flex;
     flex-direction: column;
     padding: 10px;
-    outline: 2px solid #9999FF;
+    border: 2px solid #CCC;
+    border-radius: 4px;
 }
 
 .settings__form__field {
@@ -46,16 +47,16 @@ body {
 .settings__form__field__input {
     margin-left: 5px;
     width: 60px;
-    border-radius: 5px;
+    border-radius: 3px;
+    border: 1px solid  rgba(33, 99, 255, 0.3);
     text-indent: 75%;
 }
 
 .settings__form__field__button {
     border-radius: 3px;
-    background-color: #FFF;
-    border: 1px solid #CCCCCC;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; 
-
+    background-color: rgba(33, 99, 255, 0.1);
+    border: 1px solid  rgba(33, 99, 255, 0.3);
+    height: 30px;
 }
 
 .counter {
