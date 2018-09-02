@@ -20,6 +20,7 @@ const submitForm = (event) => {
 
     const multiplier = Number(settingsInput.value) / 3600;
     setInterval(counter(multiplier), 1000);
+    settingsButton.hidden = true;
 }
 
 settingsButton.addEventListener('click', () => {
